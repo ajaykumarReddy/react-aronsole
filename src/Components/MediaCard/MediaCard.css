@@ -1,0 +1,43 @@
+.media_card_sec {
+  position: relative;
+  /* padding-top: 10px; */
+}
+
+.media_left_img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  padding: 0;
+  height: 420px;
+}
+
+.media_left_img .col-md-4 {
+  height: 100%;
+}
+
+.media_left_img img,
+.media_right_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.media_right_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 420px;
+}
+
+.media_right_img .offset-md-8 {
+  height: 100%;
+}
+
+.img_media_card_content_div {
+  display: flex;
+  align-items: center;
+}
+
+.img_media_card_content_div ul {
+  text-align: left;
+  padding-left: 1rem;
+}

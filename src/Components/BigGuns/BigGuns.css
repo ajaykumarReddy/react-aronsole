@@ -1,0 +1,23 @@
+.big_guns_head01 {
+  color: #f9cf1e;
+  font-weight: 600;
+}
+
+.big_guns_head02 {
+  color: #080807;
+  font-weight: 800;
+}
+
+.big_guns_section img {
+  width: 80%;
+}
+
+.bigGuns_row2 {
+  margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+  .bigGuns_row2 div {
+    margin-left: 0;
+  }
+}

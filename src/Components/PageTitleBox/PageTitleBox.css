@@ -1,0 +1,26 @@
+.pageTitleBox_sec {
+  background-color: #2a2824;
+  height: 174px;
+}
+
+.pageTitleBox_heading_sec {
+  color: #22dce0;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+.pageTitleBox_icon_sec {
+  background-color: #3f484429;
+  border-radius: 50%;
+  height: 175px;
+}
+
+.pageTitleBox_icon_sec img {
+  width: 38%;
+}
+
+.pageTitleBox_heading_sec h3 {
+  font-size: 24px;
+  font-weight: 700;
+}

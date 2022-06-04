@@ -1,0 +1,19 @@
+.aronsolUSP_sec {
+  background-color: #212020;
+}
+
+.aronsolUSP_content {
+  color: #7c7c7c;
+}
+
+.aronsolUSP_img {
+  background-image: url("../../assets/aronsole.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+span.bold_text_class {
+  font-weight: 800;
+  color: #a39e9e;
+}

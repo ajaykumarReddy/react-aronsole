@@ -1,0 +1,34 @@
+.SectionHeader_head {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.SectionHeader_smallHead {
+  font-weight: 700;
+  font-size: 36px;
+  color: #f9cf1e;
+  text-transform: uppercase;
+}
+
+.heading::before {
+  position: absolute;
+  left: -24px;
+  top: 0;
+  content: "";
+  background: url("../../assets/line.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .SectionHeader_head {
+    font-size: 22px;
+  }
+  .SectionHeader_smallHead {
+    font-size: 30px;
+  }
+}

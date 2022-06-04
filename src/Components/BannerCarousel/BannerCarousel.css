@@ -1,0 +1,49 @@
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212020cf; /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.carousel-caption {
+  z-index: 9;
+  position: absolute;
+  right: unset !important;
+  bottom: unset !important;
+  left: 10% !important;
+  top: 30%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-caption h3 {
+  color: #f9d336;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 10%;
+  }
+}

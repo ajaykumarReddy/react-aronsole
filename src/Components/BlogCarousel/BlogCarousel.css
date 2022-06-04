@@ -1,0 +1,35 @@
+.popular_blogs .top_left_sec img {
+  height: 100%;
+}
+
+.popular_blogs .carousel-control-next,
+.popular_blogs .carousel-control-prev {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border-radius: 50%;
+  top: 50%;
+  padding: 6px;
+}
+
+.popular_blogs .carousel-control-prev {
+  left: 3%;
+  transform: translate(-0%, -50%);
+}
+
+.popular_blogs .carousel-control-next {
+  right: 3%;
+  transform: translate(-0%, -50%);
+}
+
+.popular_blogs .carousel-indicators button {
+  background-color: #22dce0;
+}
+
+.popular_blogs .carousel.slide {
+  padding-bottom: 2rem;
+}
+
+.blog_right_row {
+  height: 50%;
+}

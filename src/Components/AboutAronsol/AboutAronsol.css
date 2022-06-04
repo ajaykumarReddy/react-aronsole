@@ -1,0 +1,30 @@
+.what_we_provide ul li {
+    font-size: 16px;
+    list-style: none;
+    display: block;
+    color: #4c4c4c;
+}
+.what_we_provide ul li::before {
+    font-family: 'FontAwesome';
+    padding-right: 15px;
+    font-weight: 400;
+    content: '\f061';
+   display: inline-block;
+   vertical-align: middle;
+    /* background-color: #22DCE0; */
+    -webkit-text-fill-color: transparent !important;
+    color: #000;
+    font-size: 16px;
+}
+.rare_box {
+    height: 195px;
+    width: 100%;
+    background-color: #22DCE0;
+    position: relative;
+    left: 0.5rem;
+}
+.image-about {
+    top: -155px;
+    margin-left: 30px;
+    margin-bottom: -145px;
+}

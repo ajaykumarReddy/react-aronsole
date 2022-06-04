@@ -1,0 +1,91 @@
+.service_page_image_inner_sec.aboutus_imageBox {
+  padding: 4rem 8rem 0rem 8rem;
+  height: auto;
+}
+
+img.about_ser_img {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.about_us_page_section .pageBanner_heading_sec .pageBanner_sub_text {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.aboutus_imageBox_text {
+  line-height: 30px;
+}
+
+.aboutus_why_aronsol {
+  margin-top: 23rem;
+}
+
+.about_us_page_section .aff_pub_bg {
+  background-color: #ffff;
+  border: none;
+  box-shadow: none;
+  color: #000;
+}
+
+.aboutus_why_aronsole_text_div {
+  width: 80%;
+  font-weight: 600;
+  margin-top: 1rem;
+  line-height: 30px;
+}
+
+h5.about_why_aronsol_head {
+  color: #a9b1b0;
+  font-weight: 700;
+}
+
+.about_us_info_text {
+  margin-top: 1rem;
+}
+
+.about_us_info_text_ul {
+  list-style-type: disclosure-closed;
+  line-height: 34px;
+  font-weight: 600;
+}
+
+.services_list img {
+  width: 90%;
+}
+
+.services_list {
+  margin-top: 2rem;
+}
+
+.aboutus_strips {
+  position: relative;
+}
+
+.aboutus_strips_text {
+  position: absolute;
+  top: 31%;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  color: #858d8c;
+}
+
+.second_row_image {
+  margin-left: 110px;
+}
+
+.aboutus_strips:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.about_us_service_img_row2 {
+  margin-top: -50px;
+}
+
+.aff_pub_bg.whyAronsol_text_class.img_media_card_content_div {
+  margin-left: 2rem;
+}

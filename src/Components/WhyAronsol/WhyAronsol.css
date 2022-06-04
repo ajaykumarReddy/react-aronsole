@@ -1,0 +1,14 @@
+.whyAronsol_section {
+    background: linear-gradient(to right, #00000026, #00000078), url(../../assets/parallax-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.whyAronsol_inner {
+    padding: 7.5rem 0;
+    overflow: hidden;
+}
+.whyAronsol_inner p {
+    color: #d1cfcf;
+}

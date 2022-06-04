@@ -1,0 +1,119 @@
+.contact_sec {
+  position: relative;
+  background-image: url(../../assets/contact_bg.png);
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.contact_head_sec {
+  background-color: #3f3d3d;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contact_heading {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.contact_heading span {
+}
+
+.contactForm_card_sec {
+  background: linear-gradient(90deg, #171616e0, #171616d1);
+  opacity: 1;
+  padding: 5rem 3rem;
+}
+
+.contactForm_card_sec .form-floating input,
+.contactForm_card_sec .form-floating input:focus,
+.contactForm_card_sec .form-floating textarea,
+.contactForm_card_sec .form-floating textarea:focus {
+  border: none;
+  border-bottom: 1px solid #ffffff6b;
+  border-radius: 0px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  padding-left: 0px;
+}
+
+.contactForm_card_sec .form-floating label {
+  color: #fff;
+  padding-left: 0px;
+}
+
+.form_send_btn {
+  background-color: #f9cf1e;
+  color: #151515;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  height: 40px;
+  width: auto;
+  letter-spacing: 1.5px;
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+.form_send_btn:hover {
+  background-color: #22dce0;
+  color: #fff;
+}
+.address_div {
+  background: #2e2d2d36;
+  color: #707070;
+  padding: 1rem;
+  margin-top: 6rem;
+  font-size: 16px;
+  display: flex;
+}
+
+.address {
+  width: 50%;
+}
+
+.us_address {
+  border-right: 1px solid #707070;
+}
+
+.hyd_address {
+  padding-left: 2rem;
+}
+
+.address_div a,
+.address_div a:hover {
+  color: #707070;
+  text-decoration: none;
+}
+
+.social_media_block {
+  background-color: #2e2d2d36;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social_media_block a {
+  margin-right: 2rem;
+  color: #fff;
+  font-size: 20px;
+}
+
+.social_media_block a:hover {
+  color: #f9cf1e;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label,
+.form-floating > .form-select ~ label {
+  opacity: 0.65;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0rem) !important;
+}

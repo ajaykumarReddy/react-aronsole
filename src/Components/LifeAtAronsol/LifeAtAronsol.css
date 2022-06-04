@@ -1,0 +1,27 @@
+.life_at_aronsol_sec {
+  background: url("../../assets/life_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 3rem 0rem;
+}
+
+.life_at_aronsol_sec_inner_bg {
+  background-color: black;
+  opacity: 0.8;
+  padding: 2rem 0rem;
+}
+
+.life_heading {
+  color: #f9cf1e;
+}
+
+.life_smallHeading {
+  color: #fff;
+  font-weight: 800;
+}
+
+.life_at_aronsol_inner .inner_text {
+  width: 75%;
+  color: #fff;
+}
