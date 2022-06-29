@@ -115,11 +115,40 @@ a#nav-dropdown {
   margin: 0px;
 }
 
+.showmenubar {
+  position: absolute;
+  right: 12px;
+  display: none;
+  top: 18px;
+}
+
+.showmenubar > div {
+  width: 35px;
+  height: 4px;
+  background-color: #625c5c;
+  margin: 6px 0;
+}
+
 @media (max-width: 768px) {
-  .menuItems {
-    display: none;
+  .showmenubar {
+    display: block;
   }
-  .logo {
-    /* width: 30%; */
+  .menuItems {
+    position: fixed;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    width: 200px;
+    background: #9f9052;
+    padding: 1rem;
+    border-radius: 12px;
+    gap: 1rem;
+    transform: translateX(100%);
+    transition: all 200ms;
+  }
+
+  .showBar .menuItems {
+    transform: translateX(0%);
   }
 }

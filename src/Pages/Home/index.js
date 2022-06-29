@@ -18,7 +18,7 @@ function HomePage(props) {
 
   return (
     <div className="homePage_sec">
-      <div className="w-100 position-relative">
+      <div className="w-100 position-relative home-mobile">
         <BannerCarousel />
         <div className="skill_section">
           <Container>

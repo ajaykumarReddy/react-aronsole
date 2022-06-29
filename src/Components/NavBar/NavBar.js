@@ -1,14 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import {useState} from 'react';
 import Logo from "../../assets/logo.png";
 import { NavDropdown } from "react-bootstrap";
 
 function NavBar(props) {
+  const [isMenuActive, setIsMenuActive] = useState(false);
+
+  const handleClick = event => {
+    // 👇️ toggle isActive state on click
+    setIsMenuActive(current => !current);
+  };
+
   return (
     <div className="navbar_section">
       <div className="container">
-        <div className="navBar_menu d-flex">
+        <div className={isMenuActive ? 'showBar' : 'navBar_menu d-flex'}>
           <div className="logo">
             <NavLink
               to="/"
@@ -55,6 +63,11 @@ function NavBar(props) {
             >
               Blog
             </NavLink>
+          </div>
+          <div className="showmenubar" onClick={handleClick}>
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
         </div>
       </div>
