@@ -54,7 +54,7 @@ function Contact(props) {
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
                 <a
-                  href="https://www.instagram.com/aronsol_media/"
+                  href="https://www.instagram.com/aronsol_inc/"
                   target="_blank"
                 >
                   <FontAwesomeIcon icon={faInstagram} />

@@ -69,6 +69,7 @@ function App() {
             content="Affiliate / Digital / Inbound Marketing &#38; IT Services in India"
             name="page-topic"
           />
+          <link rel="icon" type="image/image" href="favicon.ico"></link>
           <link rel="canonical" href="https://aronsol.com" />
         </Helmet>
         <Routes>

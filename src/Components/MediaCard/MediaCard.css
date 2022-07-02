@@ -41,3 +41,18 @@
   text-align: left;
   padding-left: 1rem;
 }
+
+@media (max-width: 768px) {
+  .mobile-left-media {
+    margin-top: 25rem;
+  }
+
+  .aff_pub_bg {
+    /* margin-top: 24rem !important; */
+    padding: 4px !important;
+  }
+  .aff_adv_bg {
+    margin-top: 27rem !important;
+    padding: 5px !important;
+  }
+}

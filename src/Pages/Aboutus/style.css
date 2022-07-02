@@ -89,3 +89,9 @@ h5.about_why_aronsol_head {
 .aff_pub_bg.whyAronsol_text_class.img_media_card_content_div {
   margin-left: 2rem;
 }
+
+@media (max-width: 768px) {
+  .service_page_image_inner_sec {
+    padding: 0;
+  }
+}

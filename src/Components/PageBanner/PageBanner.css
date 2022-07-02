@@ -71,3 +71,44 @@
     margin-left: 20%;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .banner_left_img {
+    top: -49px !important;
+  }
+  .title_box {
+    bottom: 4px !important;
+  }
+  .pageBanner_heading {
+    text-align: center !important;
+  }
+  .pageBanner_sub_text {
+    font-size: 14px !important;
+  }
+  .service_page_image_inner_sec .aboutus_imageBox {
+    padding: 5rem 2rem 0rem 2rem !important;
+  }
+  .service_page_image_sec {
+    height: auto;
+  }
+  .aboutus_why_aronsol {
+    margin-top: 188rem !important;
+  }
+  .second_row_image {
+    margin-left: 0px !important;
+  }
+  .about_why_aronsol_head, .aboutus_why_aronsole_text_div {
+   display: none;
+  }
+  .service_page_image_inner_sec.aboutus_imageBox {
+    padding: 6px !important;
+  }
+  .service_page_image_inner_sec.position-relative {
+    padding: 6px !important;
+    height: 644px;
+  }
+
+  .popular_blogs {
+    margin-top: 36rem !important;
+  }
+}

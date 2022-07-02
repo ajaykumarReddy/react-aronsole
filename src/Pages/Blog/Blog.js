@@ -45,7 +45,7 @@ function Blog(props) {
         <a href="https://twitter.com/media_aronsol" target="_blank">
           <FontAwesomeIcon icon={faTwitter} />
         </a>
-        <a href="https://www.instagram.com/aronsol_media/" target="_blank">
+        <a href="https://www.instagram.com/aronsol_inc/" target="_blank">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
         <a href="https://www.linkedin.com/company/aronsol" target="_blank">

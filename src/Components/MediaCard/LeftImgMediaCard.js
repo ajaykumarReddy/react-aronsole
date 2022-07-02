@@ -21,7 +21,7 @@ function LeftImgMediaCard(props) {
             </div>
           </Col>
         </div>
-        <Col className="offset-md-2">
+        <Col className="offset-md-2 mobile-left-media">
           <div
             className={` ${left_img_media_card_content_class} img_media_card_content_div `}
           >
